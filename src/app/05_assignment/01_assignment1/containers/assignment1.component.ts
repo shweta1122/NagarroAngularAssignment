@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class Assignment1Component {
 
+  values = '';
+  onInput(name) {
+    this.values = name.value ;
+  }
 }
